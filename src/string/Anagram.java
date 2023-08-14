@@ -13,6 +13,7 @@ public class Anagram {
 		char[] arrayS2 = str2.toCharArray();
 		Arrays.sort(arrayS1);
 		Arrays.sort(arrayS2);
+		System.out.println("Praveen");
 		
 		if(Arrays.equals(arrayS1, arrayS2)) {
 			System.out.println("Given String is Anagram");
